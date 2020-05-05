@@ -1,0 +1,136 @@
+html{
+    overflow-x: hidden;
+}
+@-ms-viewport{
+  width: device-width;
+}
+#title{
+    background: rgb(0,212,255);
+background: linear-gradient(61deg, rgba(0,212,255,1) 0%, rgba(63,55,201,1) 73%, rgba(75,79,189,1) 100%);
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    width: 100;
+    
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.row{
+     text-align: center;
+}
+h1{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 5rem !important;
+}
+.top-btns{
+    margin: 3% 3% 2% 0;
+    padding: 10px 80px 10px 80px !important;
+}
+.photo{
+    transform: translateX(50px);
+}
+.navbar{
+    background-color: red !important;
+ color: white !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 2.5rem !important;
+}
+.nav-item{
+    
+    padding: 0 20px!important; 
+
+}
+.dropdown-menu{
+   background: rgb(0,212,255) !important; 
+/*background: linear-gradient(61deg, rgba(0,212,255,1) 0%, rgba(63,55,201,1) 73%, rgba(75,79,189,1) 100%); !important;*/
+    width: 300px;
+}
+
+#features{
+    padding:  50px 50px;
+    font-family: 'Manrope', sans-serif;
+    
+}
+.feature-para{
+    
+}
+p{
+   font-family: 'Vollkorn', serif; 
+}
+.feautre-button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px solid #4d80e4;
+    background-color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    ont-family: 'Montserrat Alternates', sans-serif;
+}
+.feautre-button:hover{
+    background-color: #4d80e4;
+    color:  #fff;
+   transition: all .4s ease;
+-webkit-transition: all .4s ease;
+    border: 2px solid rgba(0,0,0,0.3);
+}
+
+.logos{
+     padding:  50px 50px;
+    color: #4d80e4;
+}
+
+#testimonials{
+      background: linear-gradient(61deg, rgba(0,212,255,1) 0%, rgba(63,55,201,1) 73%, rgba(75,79,189,1) 100%); 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    
+}
+.goal{
+    padding: 0 0 20px 0;
+    color: #fff;
+    font-family: 'Marmelad', sans-serif;
+}
+.testimonials-para{
+    font-family: 'M PLUS 1p', sans-serif;
+    font-size: 20px;
+    color: #fff;
+     text-align:center;
+    line-height: 2;
+}
+
+#cta{
+   
+    padding: 12%;
+   text-align: center;
+    text-transform: capitalize;
+     font-family: 'Manrope', sans-serif;
+    color: #000;
+}
+.foot-head{
+    margin-bottom:  80px;
+}
+.low-btn{
+    margin: 20px 15px;
+    padding: 5px 40px 5px 40px !important;
+     ont-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+#footer{
+      background: linear-gradient(61deg, rgba(0,212,255,1) 0%, rgba(63,55,201,1) 73%, rgba(75,79,189,1) 100%); 
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+.social-logo{
+    margin: 0 10px 10px 10px;
+}
+.footer-statement{
+    margin-top: 50px;
+}
